@@ -142,7 +142,6 @@ body {
 .card {
     border-radius: 5px;
     box-shadow: none;
-    margin-left: 5em;
 }
 
 .card-title {
@@ -158,6 +157,11 @@ body {
 .card.animate-card:hover {
     transform: translateY(-10px); /* elevate the card on hover */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* add a subtle shadow effect */
+}
+.donation-img {
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
 }
 
 .statistics {
